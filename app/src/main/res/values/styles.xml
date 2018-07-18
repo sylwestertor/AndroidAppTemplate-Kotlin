@@ -1,0 +1,101 @@
+<resources>
+
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!-- AppTheme.Base is for styles-v21 etc. to inherit -->
+    </style>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="colorControlNormal">@color/colorAccentInactive</item>
+
+        <item name="android:windowBackground">@color/windowBackground</item>
+
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="AppTheme.SplashTheme">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+
+    <style name="AppTheme.ActionBarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <item name="colorControlNormal">@color/colorPrimaryDark</item>
+    </style>
+
+    <!--<style name="AppTabLayout" parent="Widget.Design.TabLayout">-->
+        <!--<item name="tabIndicatorColor">@color/yellow</item>-->
+        <!--<item name="tabIndicatorHeight">4dp</item>-->
+        <!--<item name="tabBackground">?attr/selectableItemBackground</item>-->
+        <!--<item name="tabTextAppearance">@style/AppTabTextAppearance</item>-->
+        <!--<item name="tabSelectedTextColor">@color/white</item>-->
+    <!--</style>-->
+
+    <!--<style name="AppTabTextAppearance" parent="TextAppearance.Design.Tab">-->
+        <!--<item name="android:textSize">14dp</item>-->
+        <!--<item name="android:textColor">@color/blue</item>-->
+    <!--</style>-->
+
+    <!-- TextView -->
+    <style name="TextView">
+        <item name="fontPath">fonts/Roboto/Roboto-Regular.ttf</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+
+    <style name="TextView.Light">
+        <item name="fontPath">fonts/Roboto/Roboto-Light.ttf</item>
+    </style>
+
+    <style name="TextView.Medium">
+        <item name="fontPath">fonts/Roboto/Roboto-Medium.ttf</item>
+    </style>
+
+    <style name="TextView.Bold">
+        <item name="fontPath">fonts/Roboto/Roboto-Bold.ttf</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextView.Button" parent="TextView.Bold">
+        <item name="android:padding">8dp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <!-- EditText -->
+    <style name="EditText" parent="Widget.AppCompat.EditText">
+        <item name="android:textSize">14dp</item>
+        <item name="android:padding">16dp</item>
+        <!--<item name="android:maxWidth">280dp</item>-->
+        <item name="android:minWidth">280dp</item>
+        <item name="colorControlNormal">@color/colorAccent</item>
+        <!--<item name="colorControlActivated">@color/blue</item>-->
+        <!--<item name="colorControlHighlight">@color/blue</item>-->
+    </style>
+
+    <style name="EditText.Light">
+        <item name="fontPath">fonts/Roboto/Roboto-Light.ttf</item>
+    </style>
+
+    <style name="EditText.Medium">
+        <item name="fontPath">fonts/Roboto/Roboto-Medium.ttf</item>
+    </style>
+
+    <style name="EditText.Bold">
+        <item name="fontPath">fonts/Roboto/Roboto-Bold.ttf</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Buttons -->
+    <style name="Button" parent="Base.Widget.AppCompat.Button.Colored">
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="Button.White" parent="Button">
+        <item name="android:background">@drawable/button_white</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+</resources>
